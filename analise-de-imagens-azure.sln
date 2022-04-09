@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api-upload-image-azure-storage", "api-upload-image-azure-storage", "{9497FD94-45C1-474C-907B-0DDBFF45320A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-upload-image-azure", "api-upload-image-azure\api-upload-image-azure.csproj", "{CE13DEE5-875C-4D88-9149-4B234D9F29B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api-upload-image-azure", "api-upload-image-azure\api-upload-image-azure.csproj", "{CE13DEE5-875C-4D88-9149-4B234D9F29B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "azure-functions", "azure-functions", "{5D3D67D1-538F-43BA-9F93-0D239128B04D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
