@@ -8,7 +8,7 @@ using Microsoft.Extensions.Logging;
 
 namespace ImagemAdicionada
 {
-    public class Function1
+    public class FileUploadTriggerFunc
     {
 
         [FunctionName("upload-image")]
