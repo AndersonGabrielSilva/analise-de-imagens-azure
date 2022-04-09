@@ -16,7 +16,6 @@ namespace api_upload_image_azure.Services
         public string UploadBase64Image(string base64Image, string container)
         {
             var _connectionString = _configuration.GetSection("AzureStorage").GetSection("ConnectionString")?.Value;
-            //var _connectionString = _configuration.GetSection("AzureStorage.ConnectionString")?.Value;
 
             // Gera um nome randomico para imagem
             var fileName = Guid.NewGuid().ToString() + ".jpg";

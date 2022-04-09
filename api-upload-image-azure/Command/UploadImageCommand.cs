@@ -6,6 +6,6 @@
         public string Container { get; set; }
         
         //Imagem no formato base64
-        public string Image { get; set; }
+        public string ImageBase64 { get; set; }
     }
 }

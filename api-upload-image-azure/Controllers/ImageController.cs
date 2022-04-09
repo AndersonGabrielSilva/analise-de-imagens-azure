@@ -19,7 +19,7 @@ namespace api_upload_image_azure.Controllers
         public string UploadImage([FromBody] UploadImageCommand uploadImage)
         {
             //return UploadService.UploadBase64Image(uploadImage.Image, uploadImage.Container);
-            return UploadService.UploadBase64Image(uploadImage.Image, "analise-imagens");
+            return UploadService.UploadBase64Image(uploadImage.ImageBase64, "analise-imagens");
         }
     }
 }
