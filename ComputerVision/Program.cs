@@ -1,18 +1,15 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
+﻿using ComputerVisionLib;
 
-Console.WriteLine("Hello, World!");
-
-string Key = "minha chave privada";
-string endpoint = "url do meu serviço de cognitive service da azure";
 string Url = "https://cdn.pixabay.com/photo/2015/08/12/10/20/person-885698_960_720.jpg";
 
-ComputerVisionClient computerVision = new ComputerVisionClient(new ApiKeyServiceClientCredentials(Key)) 
- { Endpoint = endpoint } ;
+Console.WriteLine("Inicio do Programa");
 
-var analises = computerVision.DescribeImageAsync(Url, 10, "pt").GetAwaiter().GetResult();
+Console.WriteLine("Enviando Imagem para analise");
 
-foreach (var item in analises.Captions)
-{
-    Console.WriteLine($"{item.Text}, {item.Confidence}");
-}
+var descricoes = new ComputerVisionService().DescribeImage(Url);
+
+Console.WriteLine("Exibindo analise");
+descricoes.ForEach(d => Console.WriteLine(d));
+
+Console.WriteLine("Termino do Programa");
+

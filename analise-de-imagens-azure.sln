@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api-upload-image-azure-storage", "api-upload-image-azure-storage", "{9497FD94-45C1-474C-907B-0DDBFF45320A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - api-upload-image-azure-storage", "1 - api-upload-image-azure-storage", "{9497FD94-45C1-474C-907B-0DDBFF45320A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api-upload-image-azure", "api-upload-image-azure\api-upload-image-azure.csproj", "{CE13DEE5-875C-4D88-9149-4B234D9F29B0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "azure-functions", "azure-functions", "{5D3D67D1-538F-43BA-9F93-0D239128B04D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - azure-functions", "2 - azure-functions", "{5D3D67D1-538F-43BA-9F93-0D239128B04D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImagemAdicionada", "ImagemAdicionada\ImagemAdicionada.csproj", "{CEC8D0EE-4745-4BFC-857B-F8688C7BB76E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "analise-imagem-computer-vision", "analise-imagem-computer-vision", "{ABF9B963-613A-4FE3-A402-AD9DF8E1424D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - analise-imagem-computer-vision", "3 - analise-imagem-computer-vision", "{ABF9B963-613A-4FE3-A402-AD9DF8E1424D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerVision", "ComputerVision\ComputerVision.csproj", "{0967A6E2-AD4E-4DAF-A2A8-07FF9B84F920}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerVision", "ComputerVision\ComputerVision.csproj", "{0967A6E2-AD4E-4DAF-A2A8-07FF9B84F920}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerVisionLib", "ComputerVisionLib\ComputerVisionLib.csproj", "{7BFC018F-83CA-4534-92E5-966D4AA5D4BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0967A6E2-AD4E-4DAF-A2A8-07FF9B84F920}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0967A6E2-AD4E-4DAF-A2A8-07FF9B84F920}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0967A6E2-AD4E-4DAF-A2A8-07FF9B84F920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFC018F-83CA-4534-92E5-966D4AA5D4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFC018F-83CA-4534-92E5-966D4AA5D4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFC018F-83CA-4534-92E5-966D4AA5D4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFC018F-83CA-4534-92E5-966D4AA5D4BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{CE13DEE5-875C-4D88-9149-4B234D9F29B0} = {9497FD94-45C1-474C-907B-0DDBFF45320A}
 		{CEC8D0EE-4745-4BFC-857B-F8688C7BB76E} = {5D3D67D1-538F-43BA-9F93-0D239128B04D}
 		{0967A6E2-AD4E-4DAF-A2A8-07FF9B84F920} = {ABF9B963-613A-4FE3-A402-AD9DF8E1424D}
+		{7BFC018F-83CA-4534-92E5-966D4AA5D4BB} = {ABF9B963-613A-4FE3-A402-AD9DF8E1424D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1553853A-CF42-4019-97FB-4F45A8147FB2}
